@@ -4,7 +4,6 @@ import { useGetPostByIdQuery } from "../../shared/api";
 
 const PostDetailsPage = () => {
   const { postId } = useParams();
-  console.log(postId, "this is postId");
   const { data, isLoading } = useGetPostByIdQuery(postId);
 
   return (

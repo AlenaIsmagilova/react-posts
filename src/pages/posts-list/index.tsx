@@ -2,11 +2,9 @@ import { PostsList } from "../../entities/ui/posts-list";
 import { useGetPostsListQuery } from "../../shared/api";
 
 export const PostsListPage = () => {
-  const { data, isLoading } = useGetPostsListQuery();
+  const { data, isLoading } = useGetPostsListQuery(0);
 
-  const handleViewClick = () => {
-    console.log("see post");
-  };
+  const handleViewClick = () => {};
 
   return (
     <>
