@@ -10,7 +10,7 @@ const PostDetailsPage = () => {
   return (
     <>
       {!isLoading && (
-        <>
+        <div className={styles.container}>
           <Post
             title={data.title}
             body={data.body}
@@ -20,7 +20,7 @@ const PostDetailsPage = () => {
           <Link to="/" className={styles.link}>
             <button className={styles.button}>Вернуться</button>
           </Link>
-        </>
+        </div>
       )}
     </>
   );

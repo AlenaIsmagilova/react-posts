@@ -1,7 +1,7 @@
 import { configureStore } from "@reduxjs/toolkit";
 import { useSelector } from "react-redux";
 import { TypedUseSelectorHook, useDispatch } from "react-redux";
-import postsSlice from "../../entities/model";
+import postsSlice from "../../shared/store";
 import { postsApi } from "../../shared/api";
 
 const store = configureStore({

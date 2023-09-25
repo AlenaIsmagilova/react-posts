@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import { useAppDispatch, useAppSelector } from "../../../app/store";
 import { postsApi } from "../../../shared/api";
-import { setCurrentOffset } from "../../model";
+import { setCurrentOffset } from "../../../shared/store";
 import { Post } from "../post";
 import VirtualAndInfiniteScrolls from "../scrolls";
 import styles from "./post-list.module.css";
