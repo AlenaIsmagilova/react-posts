@@ -1,12 +1,12 @@
 import type { ComponentType, FunctionComponent } from "react";
-import { BrowserRouter } from "react-router-dom";
+import { HashRouter } from "react-router-dom";
 
 export function withRouter(WrappedComponent: ComponentType): FunctionComponent {
   return function wrappedComponenet() {
     return (
-      <BrowserRouter>
+      <HashRouter>
         <WrappedComponent />
-      </BrowserRouter>
+      </HashRouter>
     );
   };
 }
