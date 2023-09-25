@@ -15,4 +15,4 @@
 
 Стилизация: реализован бесконечный скролл и виртуализация контента
 
-[Деплой](https://github.com/AlenaIsmagilova/react-posts)
+[Деплой](https://alenaismagilova.github.io/react-posts/)
