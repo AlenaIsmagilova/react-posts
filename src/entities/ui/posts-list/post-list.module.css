@@ -1,5 +1,6 @@
 .postContainer {
   display: flex;
+  justify-content: space-between;
 }
 
 .button {
