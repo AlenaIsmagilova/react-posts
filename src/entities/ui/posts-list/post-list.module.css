@@ -1,7 +1,7 @@
 .postContainer {
   display: flex;
   justify-content: space-between;
-  width: 60%;
+  width: 900px;
   border: 1px solid darkgray;
   padding: 15px;
   margin: auto;
