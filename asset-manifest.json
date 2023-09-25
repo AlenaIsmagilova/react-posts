@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/AlenaIsmagilova/react-posts/static/css/main.784cebfb.css",
+    "main.js": "/AlenaIsmagilova/react-posts/static/js/main.09dfce98.js",
+    "index.html": "/AlenaIsmagilova/react-posts/index.html",
+    "main.784cebfb.css.map": "/AlenaIsmagilova/react-posts/static/css/main.784cebfb.css.map",
+    "main.09dfce98.js.map": "/AlenaIsmagilova/react-posts/static/js/main.09dfce98.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.784cebfb.css",
+    "static/js/main.09dfce98.js"
+  ]
+}
