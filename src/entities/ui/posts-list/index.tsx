@@ -33,9 +33,16 @@ export const PostsList = ({ posts, handleViewClick }: IPostsListProps) => {
     return (
       <li key={item.id}>
         <div className={styles.postContainer}>
-          <Post title={item.title} body={item.body} id={item.id} />
-          <Link to={`/${item.id}`}>
-            <button onClick={handleViewClick}>Просмотр</button>
+          <Post
+            title={item.title}
+            body={item.body}
+            id={item.id}
+            isInList={true}
+          />
+          <Link className={styles.link} to={`/${item.id}`}>
+            <button className={styles.button} onClick={handleViewClick}>
+              Просмотр
+            </button>
           </Link>
         </div>
       </li>
@@ -44,7 +51,7 @@ export const PostsList = ({ posts, handleViewClick }: IPostsListProps) => {
 
   return (
     <VirtualAndInfiniteScrolls
-      height="500"
+      height="100"
       listItems={virtualScrollChildren}
       lastRowHandler={lastRowHandler}
     ></VirtualAndInfiniteScrolls>
